@@ -7,7 +7,9 @@
 <body>
     <h1>Exercício 05</h1>
     <script>
-        // Seu código de lógica aqui
+        let nums = [];
+        for (let i = 0; i < 5; i++) nums.push(parseInt(prompt("Digite um número:")));
+        alert("Maior: " + Math.max(...nums) + " | Menor: " + Math.min(...nums));
     </script>
 </body>
 </html>

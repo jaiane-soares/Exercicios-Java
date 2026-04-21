@@ -7,7 +7,12 @@
 <body>
     <h1>Exercício 11</h1>
     <script>
-        // Seu código de lógica aqui
+      let somaPos = 0, somaNeg = 0;
+        for (let i = 0; i < 10; i++) {
+            let n = parseInt(prompt("Digite um número:"));
+            n > 0 ? somaPos += n : somaNeg += n;
+        }
+        alert("Soma Positivos: " + somaPos + " | Soma Negativos: " + somaNeg);
     </script>
 </body>
 </html>

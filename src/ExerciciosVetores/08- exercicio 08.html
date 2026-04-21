@@ -7,7 +7,13 @@
 <body>
     <h1>Exercício 08</h1>
     <script>
-        // Seu código de lógica aqui
+        let pares = [], impares = [];
+        for (let i = 0; i < 5; i++) {
+            let n = parseInt(prompt("Digite um número:"));
+            n % 2 === 0 ? pares.push(n) : impares.push(n);
+        }
+        const media = (arr) => arr.length ? arr.reduce((a, b) => a + b) / arr.length : 0;
+        alert("Média Pares: " + media(pares) + " | Média Ímpares: " + media(impares));
     </script>
 </body>
 </html>

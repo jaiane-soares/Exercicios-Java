@@ -7,7 +7,12 @@
 <body>
     <h1>Exercício 09</h1>
     <script>
-        // Seu código de lógica aqui
+        let pos = 0, neg = 0;
+        for (let i = 0; i < 10; i++) {
+            let n = parseInt(prompt("Digite um número:"));
+            n > 0 ? pos++ : (n < 0 ? neg++ : null);
+        }
+        alert("Positivos: " + pos + " | Negativos: " + neg);
     </script>
 </body>
 </html>

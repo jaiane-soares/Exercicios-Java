@@ -7,7 +7,12 @@
 <body>
     <h1>Exercício 13</h1>
     <script>
-        // Seu código de lógica aqui
+      let count = 0;
+        for (let i = 0; i < 10; i++) {
+            let n = parseInt(prompt("Digite um número:"));
+            if (n >= 10 && n <= 50) count++;
+        }
+        alert("Números no intervalo [10, 50]: " + count);
     </script>
 </body>
 </html>
