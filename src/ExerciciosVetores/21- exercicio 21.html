@@ -7,7 +7,10 @@
 <body>
     <h1>Exercício 21</h1>
     <script>
-        // Seu código de lógica aqui
+            let m = [[1,1,1,1],[2,2,2,2],[3,3,3,3],[4,4,4,4]];
+        let flat = m.flat();
+        let media = flat.reduce((a,b) => a+b) / flat.length;
+        alert(media);
     </script>
 </body>
 </html>

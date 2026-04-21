@@ -7,7 +7,12 @@
 <body>
     <h1>Exercício 25</h1>
     <script>
-        // Seu código de lógica aqui
+                let m = [[1,1,1,1],[2,2,2,2],[3,3,3,3],[4,4,4,4]];
+        for(let j=0; j<4; j++) {
+            let soma = 0;
+            for(let i=0; i<4; i++) soma += m[i][j];
+            console.log("Soma coluna " + j + ": " + soma);
+        }
     </script>
 </body>
 </html>
