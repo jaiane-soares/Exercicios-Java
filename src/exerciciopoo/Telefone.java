@@ -15,6 +15,17 @@ public class Telefone {
         this.tipo = tipo;
     }
 
+    @Override
+    public String toString() {
+        return "Telefone{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", numero='" + numero + '\'' +
+                ", ddd='" + ddd + '\'' +
+                ", tipo='" + tipo + '\'' +
+                '}';
+    }
+
     public String getMarca() {
         return marca;
     }
